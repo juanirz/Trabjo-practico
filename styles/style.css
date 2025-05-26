@@ -30,6 +30,10 @@ body {
   color: #38313b;
 }
 
+.content-principal span {
+  color: #5c2491;
+}
+
 .content-principal p {
   font-size: 20px;
   color: #666;
@@ -66,4 +70,44 @@ body {
 header {
   padding: 80px;
 
+}
+
+.informacion {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  background: #b8b4b4;
+  box-shadow: 1px 2px 8px;
+  width: 40%;
+  margin: 10px;
+}
+
+.informacion h2 {
+  font-size: 50px;
+}
+
+.informacion p {
+  font-size: 20px;
+}
+
+.education {
+  display: block;
+  padding: 56px;
+  background: #b8b4b4;
+  box-shadow: 1px 2px 8px;
+  width: 45%;
+  margin: 10px;
+  float: right;
+  position: relative;
+  top: -270px;
+}
+
+.education h2 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.education ul {
+  font-size: 20px;
 }
