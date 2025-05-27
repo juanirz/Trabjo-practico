@@ -73,42 +73,39 @@ header {
 
 }
 
-.informacion {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  background: #b8b4b4;
-  box-shadow: 1px 2px 8px;
-  width: 40%;
+.information {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
   margin: 10px;
-  border-radius: 40px;
 }
 
-.informacion h2 {
-  font-size: 50px;
+.about {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  border: 2px solid rgba(235, 229, 229, 0.616);
+  padding: 30px;
 }
 
-.informacion p {
+.about h2 {
+  color: #38313b;
+}
+
+.about p {
   font-size: 20px;
+
 }
 
 .education {
-  display: block;
-  padding: 56px;
-  background: #b8b4b4;
-  box-shadow: 1px 2px 8px;
-  width: 45%;
-  margin: 10px;
-  float: right;
-  position: relative;
-  top: -270px;
-  border-radius: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  border: 2px solid rgba(235, 229, 229, 0.616);
+  padding: 30px;
 }
 
 .education h2 {
-  font-size: 40px;
-  padding: 10px;
+  color: #38313b;
+
 }
 
 .education ul {
@@ -116,19 +113,14 @@ header {
 }
 
 .skills {
-  display: block;
-  flex-wrap: wrap;
-  padding: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  background: #b8b4b4;
-  box-shadow: 1px 2px 8px;
-  width: 40%;
-  margin: 10px;
-  border-radius: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  border: 2px solid rgba(235, 229, 229, 0.616);
+  padding: 30px;
 }
 
 .skills h2 {
-  font-size: 40px;
+  color: #38313b;
 }
 
 .skills ul {
@@ -136,22 +128,14 @@ header {
 }
 
 .contact {
-  display: block;
-  padding: 56px;
-  background: #b8b4b4;
-  box-shadow: 1px 2px 8px;
-  width: 45%;
-  margin: 10px;
-  float: right;
-  position: relative;
-  top: -270px;
-  margin-top: 0px;
-  border-radius: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  border: 2px solid rgba(235, 229, 229, 0.616);
+  padding: 30px;
 }
 
 .contact h2 {
-  font-size: 40px;
-  padding: 6px;
+  color: #38313b;
 }
 
 .contact ul {
