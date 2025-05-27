@@ -28,6 +28,7 @@ body {
   font-size: 80px;
   margin-bottom: 20px;
   color: #38313b;
+  animation: mostrar-titulo 2s alternate infinite;
 }
 
 .content-principal span {
@@ -81,6 +82,7 @@ header {
   box-shadow: 1px 2px 8px;
   width: 40%;
   margin: 10px;
+  border-radius: 40px;
 }
 
 .informacion h2 {
@@ -101,6 +103,7 @@ header {
   float: right;
   position: relative;
   top: -270px;
+  border-radius: 40px;
 }
 
 .education h2 {
@@ -110,4 +113,72 @@ header {
 
 .education ul {
   font-size: 20px;
+}
+
+.skills {
+  display: block;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  background: #b8b4b4;
+  box-shadow: 1px 2px 8px;
+  width: 40%;
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.skills h2 {
+  font-size: 40px;
+}
+
+.skills ul {
+  font-size: 20px;
+}
+
+.contact {
+  display: block;
+  padding: 56px;
+  background: #b8b4b4;
+  box-shadow: 1px 2px 8px;
+  width: 45%;
+  margin: 10px;
+  float: right;
+  position: relative;
+  top: -270px;
+  margin-top: 0px;
+  border-radius: 40px;
+}
+
+.contact h2 {
+  font-size: 40px;
+  padding: 6px;
+}
+
+.contact ul {
+  font-size: 20px;
+}
+
+@keyframes mostrar-titulo {
+  from {
+    opacity: 0;
+    transform: translateY(30px) skew(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) skew(10deg);
+  }
+}
+
+.icon-wsp {
+  width: 70px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.icon-wsp img {
+  width: 100%;
+  border-radius: 50px;
 }
