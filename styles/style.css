@@ -9,68 +9,50 @@ body {
 }
 
 .baner {
-  width: 350px;
+  width: 150px;
   position: relative;
   bottom: 380px;
-  left: 600px;
+  left: 500px;
   border-radius: 30px;
+}
+
+.main {
+  background: url(../assets/coffee-fondo.jpg);
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 .content-principal {
   display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-width: 100px;
+  margin-left: 430px;
   align-items: center;
-  justify-content: space-between;
+  padding-top: 400px;
   flex-wrap: wrap;
-  padding: 300px
 }
 
 .content-principal h1 {
+
   font-size: 80px;
   margin-bottom: 20px;
-  color: #38313b;
+  color: #cccccc;
   animation: mostrar-titulo 2s alternate infinite;
-}
-
-.content-principal span {
-  color: #5c2491;
 }
 
 .content-principal p {
   font-size: 20px;
-  color: #666;
-  margin-bottom: 2rem;
+  text-align: start;
+  justify-content: space-between;
 }
 
-.content-principal {
-  max-width: 500px;
-  margin-left: 100px;
-}
-
-.barranav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
-}
-
-.btn-outline {
-  border: 2px solid #333;
-  padding: 3px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #000;
-  font-weight: 600;
-  font-size: 20px;
-
-}
-
-.btn-outline:hover {
-  background: #a076c7;
-}
-
-header {
-  padding: 80px;
-
+.content-principal span {
+  color: #5c2491;
 }
 
 .information {
@@ -165,4 +147,9 @@ header {
 .icon-wsp img {
   width: 100%;
   border-radius: 50px;
+}
+
+.navbarr {
+  background-color: #5c2491;
+  padding: 0px;
 }
