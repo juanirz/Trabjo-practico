@@ -57,9 +57,10 @@ body {
 }
 
 .about {
+  background-color: #666;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 30px;
-  border: 2px solid rgba(235, 229, 229, 0.616);
+  border: 2px solid rgba(212, 207, 207, 0.616);
   padding: 30px;
 }
 
@@ -131,7 +132,7 @@ body {
 }
 
 .icon-wsp {
-  width: 70px;
+  width: 95px;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -146,4 +147,21 @@ body {
 .navbarr {
   background-color: #5c2491;
   padding: 0px;
+}
+
+.redes-sociales {}
+
+.icono-ig{
+  width: 70px;
+}
+.icono-fb{
+  width: 50px;
+  border-radius: 10px;
+}
+.icono-tw{
+  width: 50px;
+  border-radius: 10px;
+}
+.icono-mail{
+  width: 55px;
 }
