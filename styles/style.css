@@ -149,19 +149,47 @@ body {
   padding: 0px;
 }
 
-.redes-sociales {}
+.footer-contacto {
+  background-color: #666;
+  padding: 100px;
+  font-size: 17px;
+}
+.footer-contacto h2{
+  font-size: 50px;
+}
 
-.icono-ig{
-  width: 70px;
+.ftr-titulo {
+  color: #5c2491;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
 }
-.icono-fb{
-  width: 50px;
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ position: relative;
+ top: 60px;
+}
+
+.icono-ig {
+  width: 44px;
   border-radius: 10px;
 }
-.icono-tw{
-  width: 50px;
+
+.icono-fb {
+  width: 40px;
   border-radius: 10px;
 }
-.icono-mail{
-  width: 55px;
+
+.icono-tw {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.icono-github {
+  width: 40px;
 }
