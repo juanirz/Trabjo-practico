@@ -214,4 +214,9 @@ body {
 
 .icono-github {
   width: 40px;
+
+}
+
+.custom-nav{
+  background: linear-gradient(  #e6e4e9,#272626 )
 }
