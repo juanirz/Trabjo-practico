@@ -58,7 +58,7 @@ body {
 }
 
 .about {
-  background: linear-gradient(to bottom, #5c2491, #494949);
+  background: linear-gradient(to bottom, #cecad1, #494949);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 30px;
   border: 2px solid rgba(212, 207, 207, 0.616);
@@ -71,7 +71,7 @@ body {
 }
 
 .about h2 {
-  color: #38313b;
+  color: #5c2491;
 }
 
 .about p {
@@ -80,7 +80,7 @@ body {
 }
 
 .education {
-  background: linear-gradient(to bottom, #494949, #5c2491);
+  background: linear-gradient(to bottom, #cecad1, #494949);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 30px;
   border: 2px solid rgba(235, 229, 229, 0.616);
@@ -93,8 +93,7 @@ body {
 }
 
 .education h2 {
-  color: #38313b;
-
+  color: #5c2491;
 }
 
 .education ul {
@@ -102,7 +101,7 @@ body {
 }
 
 .skills {
-  background: linear-gradient(to bottom, #494949, #5c2491);
+  background: linear-gradient(to bottom, #cecad1, #494949);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 30px;
   border: 2px solid rgba(235, 229, 229, 0.616);
@@ -115,7 +114,7 @@ body {
 }
 
 .skills h2 {
-  color: #38313b;
+  color: #5c2491;
 }
 
 .skills ul {
@@ -130,7 +129,7 @@ body {
 }
 
 .contact h2 {
-  color: #38313b;
+  color: #4a494b;
 }
 
 .contact ul {
@@ -179,7 +178,7 @@ body {
 }
 
 .ftr-titulo {
-  color: #5c2491;
+  color: #3a3a3a;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -217,6 +216,18 @@ body {
 
 }
 
-.custom-nav{
-  background: linear-gradient(  #e6e4e9,#272626 )
+.custom-nav {
+  background: linear-gradient(#e6e4e9, #272626)
+}
+
+/*responsive */
+
+@media (max-width: 480px) {
+  .content-principal h1 {
+    color: beige;
+  }
+
+  .content-principal p {
+    font-size: 15px;
+  }
 }
